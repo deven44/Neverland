@@ -1,0 +1,346 @@
+@media only screen and (max-width: 600px) {
+
+    /* nav section */
+
+    #nav{
+        padding: 10vw 5vw;
+    }
+
+    .navC svg{
+        width: 10vw;
+    }
+
+    #navR{
+        gap: 2vw;
+    }
+
+
+    .line{
+        width: 7vw;
+        height: .3vw;
+    }
+
+
+    #fixedLeftCont{
+        padding: 10vw 5vw;
+    }
+    #fixedLeftCont h4{
+        font-size: 3vw;
+        width: 40vw;
+    }
+
+
+    /* menupage */
+
+    #menuPage{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: -100%;
+        z-index: 999;
+        gap: 7vw;
+    }
+
+    .menuPageSection{
+        width: 100vw;
+        padding: 0 10vw;
+        margin-top: 35vw;
+    }
+
+    .menuPageSection h1{
+        width: 70%;
+        font-size: 11vw;
+    }
+
+
+    .menuPageSection2 h3{
+        display: none;
+        opacity: 0;
+    }
+    .menuPageSection2{
+        width: 100vw;
+        padding-left: 10vw;
+        
+    }
+
+    .menuPageSection2 h1{
+        width: 100%;
+        font-size: 8vw;
+    }
+
+    .menuPageSection2 button{
+        margin-top: 6vw;
+    }
+
+    #menuPageBtmL{
+        display: none;
+    }
+
+    .btnAnime{
+        font-size: 4vw;
+    }
+
+
+    /* page1 */
+
+    #page1Content{
+        height: 100vh;
+        width: 100vw;
+        position: absolute;
+        top: 0;
+    }
+    #page1ContentText{
+        width: 100vw;
+        top: 22%;
+        left: 50%;
+    }
+
+    #page1ContentText h1{
+        font-size: 13vw;
+        margin-bottom: 5vw;
+    }
+    #page1ContentText h3{
+        width: 80%;
+    }
+
+    #page1ScrollToDiscover{
+        bottom: 6vw;
+        right: 6vw;
+    }
+
+
+    /* page2 */
+
+    #page2{
+        padding: 5vw 0;
+    }
+    #page2>h1{
+        padding-top: 25vw;
+        width: 90%;
+        font-size: 9vw;
+    }
+    .page2Text{
+        padding-top: 23vw ;
+    }
+    .page2Text h3{
+        font-size: 4vw;
+    }
+    .page2Text h1{
+        margin: 5vw auto 0 auto;
+        font-size: 7vw;
+        width: 98%;
+    }
+    
+    #page2 img{
+        position: absolute;
+        top: 100%;
+        left: -20%;
+        height: 140vw;
+        scale:1 !important;
+        z-index: 2;
+    }
+
+
+    /* page3 */
+
+    #page3{
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+    }
+    
+    #page3Sticky{
+        background-color: #fffaf0;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    #page3Sticky video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    
+    .ourExpertise{
+        margin-left: 4vw;
+    }
+    .ourExpertise h3{
+        font-size: 3vw;
+    }
+    .ourExpertise h1{
+        font-size: 5vw;
+        margin-left: 9vw;
+    }
+    
+
+    /* page4 */
+
+    #page4{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 7vw;
+    }
+    
+    #brands{
+        gap: 18vw;
+    }
+    
+       
+
+    /* page5 */
+
+    #page5{
+        padding: 10vw 0;
+    }
+    #page5 h1{
+        font-size: 10vw;
+        width: 90%;
+    }
+
+    /* page6 */
+
+
+    #page6Content{
+        top: 44%;
+    }
+    
+    #page6Content h1{
+        width: 85%;
+        font-size: 6vw;
+        margin-bottom: 10vw;
+    }
+    
+    #page6Elems{
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3vw;
+    }
+    
+    .page6Elem{
+        width: 85%;
+        font-size: 3vw;
+    }
+    
+
+    /* page7 */
+
+    
+    #page7{
+        padding: 30vw 10vw;
+    }
+
+    #page7 h3{
+        margin-top: 11vw;
+        margin-bottom: 10vw;
+    }
+
+    #page7 h1{
+        font-size: 10vw;
+        width: 100%;
+    }
+
+    #page7 button{
+        position: relative;
+        left: 0%;
+        margin-top: 10vw;
+    }
+
+    /* footer */
+
+        
+    #footer{
+        width: 100vw;
+        flex-direction: column;
+        min-height: 150vh;
+    }
+
+    #footerL{
+        width: 100%;
+        padding: 15vw 0;
+    }
+
+    #footerLBg{
+        top: 0%;
+    }
+
+    #footerLT{
+        padding: 0 10vw;
+    }
+    #footerLT h3{
+        margin-bottom: 10vw;
+    }
+    #footerLT h1{
+        font-size: 10vw;
+    }
+
+
+    #footerR{
+        width: 100%;
+        padding: 10vw;
+        
+    }
+    #footerR>h4{
+        font-weight: 100;
+        margin-bottom: 10vw;
+    }
+
+    .flex-alignItem-center{
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .line2{
+        display: none;
+    }
+
+    #footerR h4{
+        font-weight: 100;
+        font-size: 3.8vw;
+    }
+
+    #footerRCont{
+        gap: 10vw;
+    }
+
+
+    .mt-6vw{
+        margin-top: 6vw;
+    }
+
+    .footerBottom{
+        background: #fffaf0;
+        padding: 10vw;
+        padding-top: 25vw;
+        gap: 10vw;
+        flex-direction: column;
+    }
+
+
+    .footerBottomR{
+        gap: 10vw;
+    }
+    .footerBottomC{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%,0%);
+    }
+    .w-1vw{
+        width: 4.8vw;
+    }
+    .h-1vw{
+        height: 3.5vw;
+    }
+
+    .verticalLine{
+        display: none;
+        opacity: 0;
+    }
+
+}
